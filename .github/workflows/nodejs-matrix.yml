@@ -8,7 +8,7 @@ jobs:
         version: [14, 16, 17]
         platform: [ubuntu-latest, macos-latest, windows-latest]
         exclude:
-          - version: version
+          - version: 14
             platform: macos-latest
     continue-on-error: true
     runs-on: ${{ matrix.platform }}
